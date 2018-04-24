@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="264.0" prefWidth="576.0">
+         <children>
+            <TextField layoutX="70.0" layoutY="92.0" prefHeight="32.0" prefWidth="108.0" />
+            <TextField layoutX="261.0" layoutY="95.0" prefHeight="32.0" prefWidth="122.0" />
+            <TextField layoutX="480.0" layoutY="95.0" prefHeight="32.0" prefWidth="72.0" />
+            <Label layoutX="214.0" layoutY="105.0" prefHeight="18.0" prefWidth="8.0" text="+" />
+            <Label layoutX="415.0" layoutY="105.0" prefHeight="18.0" prefWidth="8.0" text="=" />
+            <Button layoutX="237.0" layoutY="173.0" mnemonicParsing="false" text="Calculate" textOverrun="LEADING_WORD_ELLIPSIS" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
